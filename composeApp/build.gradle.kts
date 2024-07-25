@@ -91,6 +91,7 @@ kotlin {
             implementation(compose.desktop.currentOs)
             implementation("org.jetbrains.skiko:skiko-awt-runtime-$target:0.7.9")
             implementation(libs.mpfilepicker)
+            implementation(libs.compose.ui.tooling.preview)
         }
     }
 }
